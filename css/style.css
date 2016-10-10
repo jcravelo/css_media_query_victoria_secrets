@@ -1,0 +1,189 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : mar 10, 2014, 10:07:54 p.m.
+    Author     : jcravelo
+*/
+nav{
+    background-color: #000;
+    width: 100%;
+    height: 120px;
+    border-top: 10px solid #E1E4E8; 
+    border-bottom: 10px solid #E1E4E8; 
+}
+
+nav section{
+    width: 80%;
+    height: 97%;
+    display: block;
+    margin-left: auto;    
+    margin-right: auto;    
+    
+}
+
+nav section div#row{
+    width: 100%;
+    height: 100%;
+}
+
+div#row div{
+    width: 95%;
+    padding-top: 20px;
+    margin-left: auto;    
+    margin-right: auto;    
+}
+
+nav section div#row div aside{
+    display: inline-block;
+    vertical-align: top;
+    height: 100px;
+    width: 20%;
+    margin-left: 3%;
+}
+#models{
+    width: 365px !important;
+    height: 421px;
+    background-image: url(../img/bannerModels_386x421.png);
+    background-repeat: no-repeat;
+    background-position: -20px 0px;
+}
+
+#expand{
+    width: 99px !important;
+    height: 36px;
+    background-image: url(../img/expandCta_99x36.png);
+    background-repeat: no-repeat;
+    background-position: 0px 30px;
+}
+#about{
+    width: 233px !important;    
+}
+
+#about img{
+    width: 217px;
+    height: 43px;    
+}
+
+#find{
+    width: 99px !important;
+    height: 19px !important;
+}
+img{
+    display: inline-block;
+}
+
+#shop{
+    width: 86px !important;
+    height: 19px !important;
+}
+
+#logo img{
+    width: 152px;
+    height: 47px;    
+    
+}
+
+#expandHide{
+    width: 99px !important;
+    height: 36px !important;
+    display: none;
+}
+#expandHide{
+    margin-top: -6px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#about img,#logo img{  
+    margin: 10px;    
+}
+
+#find,#shop,#expand,#expandHide{
+    cursor: pointer;
+}
+
+
+@media (max-width: 1390px){
+    nav section div#row div aside{
+        margin-left: 2%;
+    }
+}
+@media (max-width: 1313px){
+    nav section div#row div aside{
+        margin-left: 1%;
+    }
+}
+@media (max-width: 1242px){
+    nav section div#row div aside{
+        margin-left: .5%;
+    }
+    nav section{
+        width: 90%;
+    }
+}
+
+@media (max-width: 1076px){
+    nav section div#row div aside{
+        margin-left: .3%;
+    }
+    nav section{
+        width: 98%;
+    }    
+}
+@media (max-width: 1076px){
+    #expand{
+        display: none !important;
+    }
+    #expandHide{
+        display: block;
+    }
+    nav section{
+        width: 78%;
+    }
+    #find,#shop{
+        display: none;
+    }
+}
+
+@media (max-width: 1045px){
+    #models{
+        background-image: url(../img/bannerModel_178x409.png);
+        width: 148px !important;
+        background-position: 10px 0px;
+    }
+    nav section div#row div aside{
+        margin-left: 6%;
+    }
+    nav section{
+        width: 99%;
+    }    
+}
+@media (max-width: 692px){
+    nav section div#row div aside{
+        margin-left: 4%;
+    }    
+    #about img,#logo img{
+        width:80%; 
+    }
+}
+@media (max-width: 692px){
+    nav section div#row div aside{
+        margin-left: .5%;
+    }    
+    #about,#logo,#expandHide{
+        width:30% !important;
+        
+    } 
+    #expandHide{
+        width:63% !important;        
+    }
+}
+@media (max-width: 445px){
+    #about,#logo{
+        margin-left: .1%;
+        width:28% !important;
+    }
+}
